@@ -33,8 +33,8 @@ def count_words_in_pptx(pptx_file, words):
 
 
 # 경로 설정
-excel_file = '/Users/it1454/Downloads/타겟 엑셀.xlsx'
-pptx_file = '/Users/it1454/Downloads/NICE그룹 성과관리 시스템 구축_제안서.pptx'
+excel_file = '/Users/Downloads/타겟 엑셀.xlsx'
+pptx_file = '/Users/Downloads/target.pptx'
 
 excel_words = extract_words_from_excel(excel_file)
 word_counts = count_words_in_pptx(pptx_file, excel_words)

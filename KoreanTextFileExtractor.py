@@ -139,6 +139,6 @@ def main(project_dir, output_file):
     write_to_excel(all_korean_texts, output_file)
 
 if __name__ == "__main__":
-    project_directory = "/Users/it1454/work-space/evaluation"  # 프로젝트 루트 디렉토리 경로
+    project_directory = "/Users/work-space"  # 프로젝트 루트 디렉토리 경로
     output_excel_file = "korean_texts_with_frequency.xlsx"  # 결과를 저장할 엑셀 파일명
     main(project_directory, output_excel_file)
